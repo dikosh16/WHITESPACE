@@ -1,0 +1,198 @@
+.section-FAQ {
+    padding: 48px 0;
+}
+.section-FAQ__header {
+    width: 343px;
+    margin: 16px auto 56px;
+}
+.section-FAQ__header-title {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 36px;
+    color: #141C24;
+    margin-bottom: 8px;
+}
+.section-FAQ__header-text {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 24px;
+    color: #344051;
+}
+.accordion-item {
+    width: 343px;
+    margin: 0 auto;
+    border: 1px solid #CED2DA;
+    border-radius: 8px;
+}
+.accordion-item:not(:last-child) {
+    margin-bottom: 12px;
+}
+.accordion-button {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border: 1px solid #CED2DA;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #141C24;
+}
+.accordion-button::after {
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/main/section-FAQ/Add-Circle.png);
+}
+.accordion-button:not(.collapsed) {
+    border-bottom: 0;
+    background-color: #ffffff;
+}
+.accordion-button:not(.collapsed)::after {
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/main/section-FAQ/Remove-Circle.png);
+}
+
+.accordion-body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #344051;
+}
+
+.section-FAQ__questions {
+    width: 343px;
+    padding: 24px;
+    background-color: #F0F6FF;
+    border-radius: 20px;
+    margin: 24px auto 0;
+}
+.section-FAQ__questions-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #002966;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.section-FAQ__questions-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #002966;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 32px;
+}
+.section-FAQ__btn {
+    display: block;
+    width: 295px;
+    height: 40px;
+    background-color: #1A75FF;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.section-FAQ__btn::before {
+    content: url(../img/main/section-FAQ/Email.png);
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 576px) {
+    .section-FAQ {
+        padding: 56px 0;
+    }
+    .section-FAQ__header {
+        width: 528px;
+        margin: 16px auto 64px;
+    }
+    .section-FAQ__header-title {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .accordion-item {
+        width: 528px;
+    }
+    .accordion-item:not(:last-child) {
+        margin-bottom: 14px;
+    }
+    .accordion-button {
+        padding: 24px;
+    }
+    .section-FAQ__questions {
+        width: 527px;
+        padding: 28px;
+        margin: 32px auto 0;
+    }
+    .section-FAQ__btn {
+        width: 224px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section-FAQ {
+        padding: 64px 0;
+    }
+    .section-FAQ__header {
+        width: 704px;
+        margin: 16px auto 72px;
+    }
+    .section-FAQ__header-title {
+        font-size: 36px;
+        margin-bottom: 12px;
+    }
+    .section-FAQ__header-text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .accordion-item {
+        width: 704px;
+    }
+    .accordion-item:not(:last-child) {
+        margin-bottom: 16px;
+    }
+    .accordion-button {
+        padding: 32px;
+    }
+    .section-FAQ__questions {
+        padding: 32px;
+        margin: 40px auto 0;
+    }
+    .section-FAQ__btn {
+        width: 153px;
+        height: 44px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section-FAQ {
+        padding: 72px 0;
+    }
+    .section-FAQ__header {
+        width: 848px;
+        margin: 16px auto 64px;
+    }
+    .accordion-item {
+        width: 800px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .section-FAQ {
+        padding: 80px 0;
+    }
+    .section-FAQ__header {
+        width: 1136px;
+    }
+    .section-FAQ__header-title {
+        line-height: 44px;
+    }
+    .section-FAQ__header-text {
+        width: 650px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,323 @@
+.section-blog {
+    padding: 48px 0;
+}
+.section-blog__header {
+    width: 343px;
+    margin: 16px auto 32px;
+}
+
+.section-blog__label {
+    width: 50px;
+    height: 24px;
+    background-color: #F0F6FF;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 24px;
+    color: #0052CC;
+    margin: 0 auto 8px;
+}
+.section-blog__title {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: #141C24;
+    margin-bottom: 8px;
+}
+.section-blog__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #344051;
+}
+.blog1__img {
+    width: 343px;
+    height: 213px;
+    background-image: url(/img/main/section-blog/blog1-img.png);
+    background-size: cover;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+.blog__wrap {
+    width: 343px;
+    padding: 16px;
+    margin: 0 auto 16px;
+}
+.blog__avatar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.blog__info-img {
+    margin-right: 8px;
+}
+
+.blog__info-name {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #344051;
+}
+.blog__info-data {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #637083;
+}
+
+.blog__post-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #141C24;
+    margin-bottom: 10px;
+}
+.blog__post-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #344051;
+    margin-bottom: 16px;
+}
+.blog__label {
+    display: flex;
+    gap: 4px;
+}
+.label1 {
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #E5EFFF;
+    font-size: 12px;
+    font-weight: 500;
+    color: #004ECC;
+    text-align: center;
+    line-height: 20px;
+}
+.label2 {
+    width: 54px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #E5F4FF;
+    font-size: 12px;
+    font-weight: 500;
+    color: #0077CC;
+    text-align: center;
+    line-height: 20px;
+}
+.label3 {
+    width: 85px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #E5F9FF;
+    font-size: 12px;
+    font-weight: 500;
+    color: #0099CC;
+    text-align: center;
+    line-height: 20px;
+}
+.label4 {
+    width: 31px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #F2F4F7;
+    font-size: 12px;
+    font-weight: 500;
+    color: #344051;
+    text-align: center;
+    line-height: 20px;
+}
+
+.blog2__img {
+    width: 343px;
+    height: 213px;
+    background-image: url(/img/main/section-blog/blog2-img.png);
+    background-size: cover;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.blog3__img {
+    width: 343px;
+    height: 213px;
+    background-image: url(/img/main/section-blog/blog3-img.png);
+    background-size: cover;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.section-blog__btn {
+    width: 343px;
+    margin: 0 auto;
+}
+
+.section-block__btn-load {
+    display: block;
+    margin: 0 auto;
+    width: 343px;
+    height: 44px;
+    background-color: #1A75FF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 576px) {
+    .section-blog {
+        padding: 56px 0;
+    }
+    .section-blog__header {
+        width: 528px;
+        margin: 16px auto 40px;
+    }
+    .section-blog__title {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .blog1__img {
+        width: 528px;
+        background-position: center;
+    }
+    .blog__wrap {
+        width: 528px;
+    }
+    .blog__post-title {
+        font-size: 22px;
+    }
+    .blog__post-text {
+        margin-bottom: 20px;
+    }
+    .blog2__img {
+        width: 528px;
+        background-position: center;
+    }
+    
+    .blog3__img {
+        width: 528px;
+        background-position: center;
+    }
+    .section-blog__btn {
+        width: 528px;
+    }
+    
+    .section-block__btn-load {
+        width: 236px;
+    }  
+}
+
+@media screen and (min-width: 768px) {
+    .section-blog {
+        padding: 64px 0;
+    }
+    .section-blog__header {
+        width: 704px;
+        margin: 16px auto 48px;
+    }
+    .section-blog__title {
+        font-size: 36px;
+        margin-bottom: 12px;
+    }
+    .section-blog__text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .blog1__img {
+        width: 704px;
+    }
+    .blog__wrap {
+        width: 704px;
+        padding: 24px 16px;
+        margin: 0 auto 32px;
+    }
+    .blog__post-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .blog__post-text {
+        margin-bottom: 24px;
+    }
+    .blog2__img {
+        width: 704px;
+    }
+    
+    .blog3__img {
+        width: 704px;
+    }
+    .section-blog__btn {
+        width: 704px;
+    }
+    
+    .section-block__btn-load {
+        width: 130px;
+        height: 48px;
+    }  
+}
+
+@media screen and (min-width: 992px) {
+    .section-blog {
+        padding: 72px 0;
+    }
+    .section-blog__header {
+        width: 848px;
+        margin: 16px auto 56px;
+    }
+    .blog1__img {
+        width: 848px;
+        height: 300px;
+    }
+    .blog__wrap {
+        width: 848px;
+    }
+    .blog2__img {
+        width: 848px;
+        height: 300px;
+    }
+    .blog3__img {
+        width: 848px;
+        height: 300px;
+    }
+    .section-blog__btn {
+        width: 848px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .section-blog {
+        padding: 80px 0;
+    }
+    .section-blog__header {
+        width: 1136px;
+        margin: 16px auto 64px;
+    }
+    .section-blog__text {
+        width: 650px;
+        margin: 0 auto;
+    }
+    .section-blog__blog {
+        width: 1136px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto 32px;
+    }
+    .blog1__img {
+        width: 357px;
+        height: 213px;
+    }
+    .blog__wrap {
+        width: 357px;
+        margin: 0;
+    }
+    .blog2__img {
+        width: 357px;
+        height: 213px;
+    }
+    .blog3__img {
+        width: 357px;
+        height: 213px;
+    }
+    .section-blog__btn {
+        width: 1136px;
+        margin-bottom: 40px;
+    }
+}

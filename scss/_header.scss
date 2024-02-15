@@ -1,0 +1,133 @@
+.header {
+    border-bottom: 1px solid #E4E7EC;
+}
+.navbar {
+    width: 343px;
+    margin: 8px auto;
+    padding: 0;
+}
+.header__logo-text {
+    display: none;
+}
+.navbar-toggler {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    margin: 0;
+}
+.navbar-nav {
+    margin-top: 10px;
+    padding-left: 10px;
+    background-color: #eef5ff;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #555;
+}
+.header__btn {
+    width: 108px;
+    height: 40px;
+    background-color: #1A75FF;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 145px;
+}
+
+
+@media screen and (min-width: 576px) {
+    .navbar {
+        width: 528px;
+    }
+    .navbar-toggler {
+        width: 40px;
+        height: 40px;
+    }
+    .navbar-nav {
+        margin-top: 10px;
+        padding-left: 10px;
+        background-color: #eef5ff;
+        width: 528px;
+    }
+    .header__btn {
+        width: 112px;
+        height: 42px;
+        margin-left: 320px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        width: 704px;
+        margin: 10px auto;
+    }
+    .header__logo {
+        display: flex;
+        align-items: center;
+    }
+    .header__logo-text {
+        display: block;
+        margin-left: 10px;
+    }
+    .navbar-toggler {
+        width: 44px;
+        height: 44px;
+    }
+    .navbar-nav {
+        width: 704px;
+    }
+    .header__btn {
+        width: 116px;
+        height: 44px;
+        margin-left: 320px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        width: 848px;
+        margin: 18px auto;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .navbar-nav {
+        margin-top: 0;
+        margin-left: 126px;
+        padding-left: 0;
+        background-color: #ffffff;
+    }
+    .nav-item:not(:last-child) {
+        margin-right: 8px;
+    }
+    .navbar-nav .nav-link {
+        font-size: 16px;
+        font-weight: 500;
+        color: #344051;
+    }
+    .header__btn {
+        width: 106px;
+        height: 40px;
+        margin-right: 0;
+        margin-left: -300px;
+        font-size: 14px;
+        order: 1;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header {
+        border-bottom: 0;
+    }
+    .navbar {
+        width: 1136px;
+    }
+    .navbar-nav {
+        margin-left: 419px;
+    }
+}
+
